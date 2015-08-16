@@ -20,21 +20,6 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "phantomjs": "^1.9.18"
   },
-  "jspm": {
-    "directories": {},
-    "dependencies": {
-      "angular": "github:angular/bower-angular@^1.4.3",
-      "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
-      "babel": "npm:babel-core@^5.8.21",
-      "ionic": "github:driftyco/ionic-bower@^1.0.1",
-      "traceur": "github:jmcriffey/bower-traceur@^0.0.91"
-    },
-    "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
-    }
-  },
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-connect": "^2.2.0",
