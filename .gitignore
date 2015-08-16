@@ -1,0 +1,7 @@
+jspm_packages/*
+app/*.js
+app/**/*.js
+app/*.js.map
+app/**/*.js.map
+.idea/*
+node_modules/*
