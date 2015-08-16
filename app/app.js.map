@@ -1,1 +1,0 @@
-{"version":3,"sources":["app/app.es6"],"names":[],"mappings":";;;;;;uBAAoB,SAAS;;;;2BACJ,iBAAiB;;IAA9B,OAAO;;AAEnB,qBAAQ,MAAM,CAAC,KAAK,EAAE,CAAC,UAAU,CAAC,CAAC,CAAC","file":"app/app.js","sourcesContent":["import angular from 'angular';\nimport * as AppCore from './core/app.core';\n\nangular.module('app', ['app.core']);\n\n"],"sourceRoot":"/source/"}

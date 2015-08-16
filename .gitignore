@@ -1,3 +1,5 @@
 jspm_packages/*
+app/*.js
+app/**/*.js
 .idea/*
 node_modules/*
