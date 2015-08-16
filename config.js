@@ -15,26 +15,29 @@ System.config({
 
 System.config({
   "map": {
-    "angular": "github:angular/bower-angular@1.4.3",
+    "angular": "github:angular/bower-angular@1.4.4",
     "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
+    "angular-ui/ui-router": "github:angular-ui/ui-router@0.2.13",
+    "angular/bower-angular": "github:angular/bower-angular@1.4.4",
     "babel": "npm:babel-core@5.8.21",
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@0.9.18",
     "ionic": "github:driftyco/ionic-bower@1.0.1",
+    "systemjs/plugin-css": "github:systemjs/plugin-css@0.1.13",
     "github:angular-ui/ui-router@0.2.13": {
-      "angular": "github:angular/bower-angular@1.4.3"
+      "angular": "github:angular/bower-angular@1.4.4"
     },
     "github:angular-ui/ui-router@0.2.15": {
-      "angular": "github:angular/bower-angular@1.4.3"
+      "angular": "github:angular/bower-angular@1.4.4"
     },
     "github:angular/bower-angular-animate@1.4.3": {
-      "angular": "github:angular/bower-angular@1.4.3"
+      "angular": "github:angular/bower-angular@1.4.4"
     },
     "github:angular/bower-angular-sanitize@1.4.3": {
-      "angular": "github:angular/bower-angular@1.4.3"
+      "angular": "github:angular/bower-angular@1.4.4"
     },
     "github:driftyco/ionic-bower@1.0.1": {
-      "angular": "github:angular/bower-angular@1.4.3",
+      "angular": "github:angular/bower-angular@1.4.4",
       "angular-animate": "github:angular/bower-angular-animate@1.4.3",
       "angular-sanitize": "github:angular/bower-angular-sanitize@1.4.3",
       "angular-ui-router": "github:angular-ui/ui-router@0.2.13",

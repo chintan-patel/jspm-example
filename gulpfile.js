@@ -15,6 +15,7 @@ var files = {
 
 function spawnTests() {
     process.spawn('gulp', ['test'], { stdio: 'inherit' });
+    connect.reload();
 }
 
 gulp.task('babel', function () {
@@ -30,7 +31,6 @@ gulp.task('watch', function(){
     spawnTests();
 	gulp.watch(files.html, ['html']);
     gulp.watch(files.es6, spawnTests);
-	gulp.watch(files.js, ['js']);
 });
 
 gulp.task('html', function () {
@@ -49,4 +49,4 @@ gulp.task('connect', function () {
 	});
 });
 
-gulp.task('default', ['connect', 'watch']);
+gulp.task('default', [ 'connect', 'watch']);
