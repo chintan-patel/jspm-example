@@ -1,6 +1,6 @@
 'use strict';
 
-class UserController {
+export class UserController {
 
 	constructor(UserFactory){
 		this.UserFactory = UserFactory;
@@ -9,6 +9,7 @@ class UserController {
 
 	init(){
 		console.log('hi');
+		return "init";
 		this.todos = ['Chintan', 'Patel'];
 		this.UserFactory.getUsers()
 		.then( users => {
@@ -17,5 +18,3 @@ class UserController {
 	}
 }
 UserController.inject = ['UserFactory'];
-
-export { UserController };
