@@ -4,8 +4,8 @@ node_js:
 - '0.12'
 before_script:
 - npm install -g gulp jspm
-- jspm install
 - jspm config registries.github.auth $JSPM_GITHUB_AUTH_TOKEN
+- jspm install
 script: gulp test
 env:
   global:
