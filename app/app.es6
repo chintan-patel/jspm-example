@@ -1,4 +1,10 @@
 import angular from 'angular';
-import * as AppCore from './core/app.core';
+import UserModule from './features/users/users.module';
+import Config from './config';
+var app = angular.module('app',['ui.router', UserModule.name]);
+app.config(Config);
 
-angular.module('app', ['app.core']);
+export default app;
+
+
+

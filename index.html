@@ -1,14 +1,17 @@
 <html>
 <head>
+    <base href="/" />
 	<title>GULP + ES6 + JSPM</title>
 	<script src="jspm_packages/system.js"></script>
 	<script src="config.js"></script>
 
 	<script>
-		System.import('./app/app');
+		System.import('./app/bootstrap')
+                .catch(console.error.bind(console));
 	</script>
 </head>
-<body ng-app="app">
-	<div ui-view>Chintan</div>
+<body >
+	<ui-view>
+    </ui-view>
 </body>
 </html>

@@ -1,7 +1,4 @@
-'use strict';
-
 class UserFactory {
-
 
 	constructor($http){
 		this.$http = $http;
@@ -11,10 +8,9 @@ class UserFactory {
 		return this.$http.get('/users').then(r =>  r.data );
 	}
 
-	static factory($http){
-		return new UserSvc($http);
-	}
 }
-UserFactory.factory.inject = ['$http'];
 
-export { UserFactory };
+UserFactory.$inject= ['$http'];
+
+export default UserFactory;
+

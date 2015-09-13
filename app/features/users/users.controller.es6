@@ -8,14 +8,16 @@ class UserController {
 	}
 
 	init() {
-		console.log('hi');
-		this.todos = ['Chintan', 'Patel'];
+		console.log('hiddd');
 		this.UserFactory.getUsers()
 			.then(users => {
 				this.users = users;
 			});
 	}
 }
-UserController.inject = ['UserFactory'];
+UserController.$inject = ['UserFactory'];
 
-export { UserController };
+export default UserController;
+
+
+
